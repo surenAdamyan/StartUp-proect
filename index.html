@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StartUp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!---------------------------------- Header Section ------------------------------------------------------>
+
+    <header class="header" id="header">
+      <nav class="container header-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/StartUp.svg" alt=" StartUp Logotype" />
+          </a>
+        </div>
+        <ul class="main-nav">
+          <li><a class="js-scroll-to-section" href="#hero">Home</a></li>
+          <li>
+            <a class="js-scroll-to-section" href="#services">Services</a>
+          </li>
+          <li><a class="js-scroll-to-section" href="#about">About</a></li>
+          <li><a class="js-scroll-to-section" href="#works">Works</a></li>
+          <li><a class="js-scroll-to-section" href="#blog">Blog</a></li>
+          <li><a class="js-scroll-to-section" href="#reviews">Clients</a></li>
+          <li><a class="js-scroll-to-section" href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-icon">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <!---------------------------------- Hero Section ------------------------------------------------------>
+
+    <section class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="animate__animated animate__fadeInUp">
+            Welcome to Startup
+          </h1>
+          <p class="animate__animated animate__fadeInUp">
+            Welcome to STARTUP Your Favourite Creative Agency Template
+          </p>
+          <button
+            class="open-modal-btn js-scroll-to-section animate__animated animate__fadeInUp"
+            href="#contact"
+          >
+            Get Sarted
+          </button>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </section>
+
+    <!---------------------------------- Services Section ------------------------------------------------------>
+
+    <section class="services" id="services">
+      <div class="container services-container">
+        <div class="section-title">
+          <h2 class="animate__animated animate__fadeInUp wow">Services</h2>
+          <hr />
+          <p class="animate__animated animate__fadeInUp wow">
+            We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="services-item animate__animated animate__fadeInUp wow">
+            <div class="icon-container">
+              <i class="fa-solid fa-a"></i>
+            </div>
+            <h3>Clean Typography</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              MinimLorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Minim
+            </p>
+          </div>
+          <div class="services-item animate__animated animate__fadeInUp wow">
+            <div class="icon-container">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Rock Solid Code</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              MinimLorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Minim
+            </p>
+          </div>
+          <div class="services-item animate__animated animate__fadeInUp wow">
+            <div class="icon-container">
+              <i class="fa-solid fa-basketball"></i>
+            </div>
+            <h3>Expert Support</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              MinimLorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Minim
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------- About us Section ------------------------------------------------------>
+
+    <section class="about" id="about">
+      <div class="container about-container">
+        <div class="section-title">
+          <h2 class="animate__animated animate__fadeInUp wow">About us</h2>
+          <hr />
+          <p class="animate__animated animate__fadeInUp wow">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+          </p>
+        </div>
+        <div class="about-text-container">
+          <div class="about-text-item">
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+            </p>
+          </div>
+          <div class="about-text-item">
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+            </p>
+          </div>
+        </div>
+
+        <!-- ////////////////////////// -->
+
+        <div class="swiper slide-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide-item">
+              <div class="slide-item-img">
+                <img src="img/about-slide1.png" alt="" />
+                <div class="overlay"></div>
+                <div class="socials">
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide-item-title">
+                <h3>Md. Khalil Uddin</h3>
+                <p>Head of Ideas</p>
+              </div>
+            </div>
+            <div class="swiper-slide slide-item">
+              <div class="slide-item-img">
+                <img src="img/about-slide2.png" alt="" />
+                <div class="overlay"></div>
+                <div class="socials">
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide-item-title">
+                <h3>Md. Khalil Uddin</h3>
+                <p>Head of Ideas</p>
+              </div>
+            </div>
+            <div class="swiper-slide slide-item">
+              <div class="slide-item-img">
+                <img src="img/about-slide3.png" alt="" />
+                <div class="overlay"></div>
+                <div class="socials">
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide-item-title">
+                <h3>Md. Khalil Uddin</h3>
+                <p>Head of Ideas</p>
+              </div>
+            </div>
+            <div class="swiper-slide slide-item">
+              <div class="slide-item-img">
+                <img src="img/about-slide4.png" alt="" />
+                <div class="overlay"></div>
+                <div class="socials">
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide-item-title">
+                <h3>Md. Khalil Uddin</h3>
+                <p>Head of Ideas</p>
+              </div>
+            </div>
+            <div class="swiper-slide slide-item">
+              <div class="slide-item-img">
+                <img src="img/about-slide2.png" alt="" />
+                <div class="overlay"></div>
+                <div class="socials">
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  </div>
+                  <div class="socials-item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide-item-title">
+                <h3>Md. Khalil Uddin</h3>
+                <p>Head of Ideas</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------- Works Section --------------------------------------------------->
+
+    <section class="works" id="works">
+      <div class="container works-container">
+        <div class="section-title">
+          <h2 class="animate__animated animate__fadeInUp wow">Latest Works</h2>
+          <hr />
+          <ul class="works-ul animate__animated animate__fadeInUp wow">
+            <li data-filter="all">All</li>
+            <li data-filter="branding">Branding</li>
+            <li data-filter="design">Design</li>
+            <li data-filter="development">Development</li>
+            <li data-filter="strategy">Strategy</li>
+          </ul>
+        </div>
+        <div class="works-grid" id="products">
+          <div class="works-grid-item" data-filter="branding" data-id="1">
+            <img src="img/gal1.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="design" data-id="2">
+            <img src="img/gal2.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="branding" data-id="3">
+            <img src="img/gal3.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="development" data-id="4">
+            <img src="img/gal4.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="design" data-id="5">
+            <img src="img/gal5.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="development" data-id="6">
+            <img src="img/gal6.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="branding" data-id="7">
+            <img src="img/gal7.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="strategy" data-id="8">
+            <img src="img/gal8.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+          <div class="works-grid-item" data-filter="strategy" data-id="9">
+            <img src="img/gal9.png" alt="" />
+            <div class="overlay">
+              <h3>Hair Dresser</h3>
+              <p>Branding</p>
+              <button class="product">View ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------- Banner Section ------------------------------------------------------>
+
+    <div class="banner" id="banner">
+      <div class="container banner-container">
+        <div class="overlay">
+          <div class="overlay-content">
+            <h2>Do you like OUR WORK so far?</h2>
+            <h2>Let's talk about YOUR PROJECT!</h2>
+            <button
+              class="open-form-btn bannerButton js-scroll-to-section"
+              href="#contact"
+            >
+              Get in Touch
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------------- Recent blog posts Section ------------------------------------------->
+
+    <section class="blog" id="blog">
+      <div class="container blog-container">
+        <div class="section-title">
+          <h2 class="animate__animated animate__fadeInUp wow">
+            Recent blog posts
+          </h2>
+          <hr />
+          <p class="animate__animated animate__fadeInUp wow">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo!
+          </p>
+        </div>
+        <div class="blog-item first-blog-item">
+          <div class="blog-item-img">
+            <img src="img/post1.png" alt="" />
+          </div>
+          <div class="blog-item-content">
+            <div class="blog-item-content-title">
+              <div class="blog-item-content-title-left">
+                <p>18<span>oct</span></p>
+              </div>
+              <div class="blog-item-content-title-right">
+                <h3><span>Lorem ipsum dolor sit amet.</span></h3>
+                <p>Lorem <span>ipsum</span> dolor <span>sit</span> amet.</p>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              voluptate omnis. Modi minima iusto, maiores nulla assumenda
+              officiis, tempore libero ut cum beatae enim atque tempora? Sit,
+              dolor, quibusdam maiores doloremque reiciendis necessitatibus
+              incidunt eligendi obcaecati veniam provident deserunt expedita
+              perspiciatis explicabo repellat ipsa voluptas hic non accusantium
+              culpa. In.
+            </p>
+            <a href="blog-post-page.html"><span>read more</span></a>
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="blog-item-img"><img src="img/post2.png" alt="" /></div>
+          <div class="blog-item-content">
+            <div class="blog-item-content-title">
+              <div class="blog-item-content-title-left">
+                <p>18<span>oct</span></p>
+              </div>
+              <div class="blog-item-content-title-right">
+                <h3><span> ipsum dolor sit amet.</span></h3>
+                <p>Lorem <span> dolor</span> sit <span>amet.</span></p>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              voluptate omnis. Modi minima iusto, maiores nulla assumenda
+              officiis, tempore libero ut cum beatae enim atque tempora? Sit,
+              dolor, quibusdam maiores doloremque reiciendis necessitatibus
+              incidunt eligendi obcaecati veniam provident deserunt expedita
+              perspiciatis explicabo repellat ipsa voluptas hic non accusantium
+              culpa. In.Tenetur, voluptate omnis.
+            </p>
+            <a href="blog-post-page.html"><span>read more</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------- Reviews Section ------------------------------------------->
+
+    <section class="reviews" id="reviews">
+      <div class="container reviews-container">
+        <div class="partners">
+          <div class="partners-item">
+            <img src="img/clients1.png" alt="" />
+          </div>
+          <div class="partners-item">
+            <img src="img/clients2.png" alt="" />
+          </div>
+          <div class="partners-item">
+            <img src="img/clients3.png" alt="" />
+          </div>
+          <div class="partners-item">
+            <img src="img/clients4.png" alt="" />
+          </div>
+          <div class="partners-item">
+            <img src="img/clients5.png" alt="" />
+          </div>
+        </div>
+        <div class="reviews-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="reviews-slider-item swiper-slide">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laboriosam inventore vel sed id distinctio sapiente voluptatem
+                repellat nemo nisi accusantium! 1
+              </p>
+              <h4>Lorem, ipsum.</h4>
+            </div>
+            <div class="reviews-slider-item swiper-slide">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laboriosam inventore vel sed id distinctio sapiente voluptatem
+                repellat nemo nisi accusantium! 2
+              </p>
+              <h4>Lorem, ipsum.</h4>
+            </div>
+            <div class="reviews-slider-item swiper-slide">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laboriosam inventore vel sed id distinctio sapiente voluptatem
+                repellat nemo nisi accusantium! 3
+              </p>
+              <h4>Lorem, ipsum.</h4>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------- Contact Section ----------------------------------------------------->
+
+    <section class="contact" id="contact">
+      <div class="container contact-container">
+        <div class="section-title">
+          <h2 class="animate__animated animate__fadeInUp wow">Get in touch</h2>
+          <hr />
+          <p class="animate__animated animate__fadeInUp wow">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet!
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <h2>Address</h2>
+              <p>
+                312, 7th Ave, New York
+                <span> NY 101200, United States of America </span>
+              </p>
+            </div>
+            <div class="contact-info-item">
+              <h2>Hotline (24x7)</h2>
+              <p>+65 0052 300, +65 88251 210 <span>+88 01723 511 340</span></p>
+            </div>
+            <div class="contact-info-item">
+              <h2>E-mail</h2>
+              <p>shapedtheme@gmail.com <span>khalilkode@gmail.com</span></p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="input-wrapper">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  maxlength="30"
+                  required
+                  id="full-name"
+                  onkeyup="validateName()"
+                />
+                <span id="name-error" class="contact-form-error-span"></span>
+              </div>
+              <div>
+                <input
+                  type="email"
+                  placeholder="Your E-mail"
+                  maxlength="30"
+                  required
+                  id="email"
+                  onkeyup="validateEmail()"
+                />
+                <span id="email-error" class="contact-form-error-span"></span>
+              </div>
+            </div>
+            <div class="input-wrapper">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Your Subject"
+                  maxlength="30"
+                  required
+                  id="subject"
+                  onkeyup="validateSubject()"
+                />
+                <span id="subject-error" class="contact-form-error-span"></span>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Company Name"
+                  maxlength="30"
+                  required
+                  id="company"
+                  onkeyup="validateCompanyName()"
+                />
+                <span id="company-error" class="contact-form-error-span"></span>
+              </div>
+            </div>
+            <div class="input-wrapper">
+              <textarea
+                placeholder="Write your message"
+                cols="30"
+                rows="5"
+                required
+                id="message"
+                onkeyup="validateMessage()"
+              ></textarea>
+              <span id="message-error" class="contact-form-error-span"></span>
+            </div>
+            <div class="input-wrapper">
+              <input
+                type="submit"
+                value="Send message"
+                onclick="return validateForm()"
+              />
+              <span id="submit-error" class="contact-form-error-span"></span>
+              <span
+                >* We’ll contact you as as possible. We don’t reply on
+                Monday.</span
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------- Footer Section ----------------------------------------------------->
+
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+        <div class="section-title footer-section-title">
+          <ul>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+          <hr />
+          <p>
+            &copy; <span id="footer-date">2023</span> Startup, Developed by
+            Suren Adamyan
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!------------------------------------------------------------------------------------------------------->
+
+    <button id="upButton"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="worksModal.js"></script>
+  </body>
+</html>
